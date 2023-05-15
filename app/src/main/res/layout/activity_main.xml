@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:backgroundTint="@color/blue_bg">
+
+    <ImageView
+        android:id="@+id/imageBack_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="start"
+        android:clickable="true"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
+    <ImageView
+        android:id="@+id/planet_next"
+        android:layout_width="260dp"
+        android:layout_height="281dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:src="@drawable/sistema_solar" />
+
+    <TextView
+        android:id="@+id/text_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:text="@string/sistema_solar"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/txt_descripton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:text="O Sistema Solar compreende o conjunto constituído pelo Sol e todos os corpos celestes que estão sob seu domínio gravitacional. "
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="88sp"
+            android:layout_marginTop="18sp"
+            android:orientation="horizontal"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/blue_bg"
+            android:text="@string/next_btn" />
+        <Button
+            android:id="@+id/detail_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/blue_bg"
+            android:text="@string/details_btn" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+</LinearLayout>

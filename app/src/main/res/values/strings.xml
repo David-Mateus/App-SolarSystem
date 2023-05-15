@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SolarSystem</string>
+    <string name="sistema_solar">Sistema Solar</string>
+    <string name="text_sistema_solar">O sistema solar é um sistema planetário composto pelo Sol  e todos os objetos celestes que orbitam ao seu redor. Ele é composto por oito planetas principais (Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano e Netuno), cinco planetas anões (Ceres, Plutão, Haumea, Makemake e Éris) e uma variedade de outros objetos menores, incluindo asteroides, cometas e meteoroides.</string>
+    <string name="descriptiopn">O Sistema Solar compreende o conjunto constituído pelo Sol e todos os corpos celestes que estão sob seu domínio gravitacional. </string>
+    <string name="next_btn">Proximo</string>
+    <string name="details_btn">Anterior</string>
+    <string name="prev_btn">Voltar</string>
+    <string name="name_galileu_galilei">Galileu Galilei</string>
+    <string name="descricao_cientistas">Famoso por suas descobertas astronômicas, como a observação das fases de Vênus, as manchas solares e os satélites de Júpiter.</string>
+
+
+</resources>
